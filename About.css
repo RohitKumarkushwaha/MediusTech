@@ -1,0 +1,163 @@
+.aboutouter{
+    /* height: 100%; */
+    box-sizing: border-box;
+    margin: 0 10rem;
+    padding: 20rem 15rem 10rem;
+}
+.aboutouter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutouter h1{
+    color:rgb(1 120 72 ) ;
+    margin: 0;
+}
+.aboutouter1 h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    font-weight: 600;
+
+}
+.aboutouter2{
+    margin-top: 20rem ;
+    box-sizing: border-box;
+
+}
+.aboutcard{
+    display: flex;
+}
+.about-card-image {
+    width: 25rem;
+    height: 25rem;
+    background-color: aqua;
+    overflow: hidden;
+    position: relative;
+}
+.about-card-image img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.about-card-content{
+    padding-right:5rem;
+}
+.about-card-content h3{
+    margin: 0;
+    font-size: 2rem;
+
+}
+.about-card-content p{
+    color: gray;
+    margin: 2rem 0rem;
+    line-height: 22px;
+    font-size: 1.1rem;
+}
+.aboutbtn{
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1rem;
+    background-color:rgb(1 120 72 ) ;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.aboutbtn:hover{
+    background-color:rgb(14, 89, 59) ;
+}
+.aboutorder3{
+    background-color: rgb(1 120 72 );
+    padding: 4rem 25rem ;
+    
+}
+.aboutheading{
+    color: white;
+    font-size: 1.3rem;
+}
+.aboutcontent p{
+    color: white;
+    font-weight: 100;
+    margin: 2rem 0;
+}
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 0;
+}
+.logos{
+    padding: 0 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 0;
+
+}
+.logo{
+    width: 6rem;
+    height: auto;
+overflow: hidden;
+position: relative;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutheading{
+    background-color: rgb(1 120 72 );
+     display: inline;
+    padding: .7rem 2rem;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.8rem;
+}
+.aboutorder4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutoutercont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 4rem;
+}
+.cardfirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardcontentabout{
+    background-color: rgb(218, 223, 221);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.cardcontentabout p{
+    color: rgb(109, 101, 101);
+    font-weight: 100;
+   font-size: 1.1rem;
+   
+}
+.aboutdes{
+    margin: 1rem 35rem 1rem 5rem;
+}
+.aboutdes1{
+    margin: 1rem 5rem 1rem 35rem;
+
+}
+.startpage{
+    height: 100vh;
+}
+.mortgagecal{
+    height: 100vh;
+}

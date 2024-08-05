@@ -1,0 +1,444 @@
+/* Navbar.css */
+* {
+    box-sizing: border-box;
+    scrollbar-width: none;
+    .fira-sans-condensed-semibold {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.modern-antiqua-regular {
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 71, 51);
+    padding: 10px 20px;
+    color: white;
+    z-index: 1000;
+    /* Ensures the navbar stays on top of other content */
+    height: 6rem;
+
+}
+
+.nav-links {
+    font-size: 1.3rem;
+    margin-left: 3rem;
+
+}
+
+.nav-links h5 {
+    display: inline;
+    font-size: 1.6rem;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.nav-links a {
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0rem 2.5rem;
+    border: 1px solid transparent;
+    /* Transparent border to maintain size */
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    padding: 13px 15px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: white;
+    color: rgb(0, 71, 51);
+    border-color: rgb(0, 71, 51);
+    /* Changes border color on hover */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin: 0rem 5rem;
+
+}
+
+.icon {
+    margin: 0rem 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 2rem;
+    padding: 10px;
+    width: 3rem;
+    /* Ensure width and height are equal */
+    height: 3rem;
+    /* Ensure width and height are equal */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.icon:hover {
+    background-color: white;
+    color: rgb(0, 71, 51);
+    border-color: rgb(0, 71, 51);
+    /* Changes border color on hover */
+}
+
+.sign-in-button {
+    background: none;
+    border: 1px solid transparent;
+    /* Transparent border to maintain size */
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 13px 15px;
+    /* Consistent padding */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.sign-in-button:hover {
+    background-color: white;
+    color: rgb(0, 71, 51);
+    border-color: rgb(0, 71, 51);
+    /* Changes border color on hover */
+}
+
+.firstdiv {
+    height: 65rem;
+    background-color: rgb(0, 71, 51);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.outer {
+    /* margin: 6rem; */
+    margin-top: 6rem;
+    /* background-color: aqua; */
+    /* box-sizing: border-box; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer h1 {
+    z-index: 1;
+    font-weight: 500;
+    font-size: 7rem;
+    color: rgb(30 224 127);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    justify-content: initial;
+}
+
+.approval a {
+    display: inline-block;
+    background-color: rgb(30, 224, 127);
+    color: rgb(0, 71, 51);
+    padding: 25px 45px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.approval a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.approvaltext {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.rightside1 {
+    display: flex;
+}
+
+.rightside2 {
+    color: white;
+}
+
+.googleicon {
+    font-size: 1.5rem;
+}
+
+.staricon {
+    color: rgb(192, 192, 23);
+    font-size: 1.5rem;
+}
+
+.secdiv {
+    display: flex;
+    margin: 10rem;
+    justify-content: space-between;
+    padding: 0rem 10rem;
+}
+
+.imgclass {
+    width: 20rem;
+    height: auto;
+
+}
+
+.heroimage2class {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btnclass {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
+.firstbtn{
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 4px solid #017848;
+    color:#017848;
+    
+}
+.restbtn {
+    background: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 13px 15px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    
+}
+
+.restbtn:hover {
+    outline: 4px solid #017848;
+    outline-offset: -2px; 
+}
+
+.secdiv2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secdiv2 h2 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.secdiv2 a {
+
+    background-color: rgb(0, 71, 51);
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    max-width: 200px;
+    border-radius: 50px;
+    padding: 13px 30px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.secdiv2 a:hover {
+    background-color: green;
+}
+
+.truststar {
+    color: green;
+}
+
+.trustpilot {
+    margin-top: 1rem;
+}
+
+.trustpilot span strong {
+    color: rgb(63, 59, 59);
+}
+
+.thirddiv {
+    padding: 0rem 14rem;
+    margin-bottom: 10rem;
+}
+
+.thirddiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.thirddiv1 h1 {
+    margin: 0px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.btnclass2 button {
+    margin: 0rem 0rem 0rem 1rem;
+}
+
+.thirddiv2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    gap: 2rem;
+}
+.card1 {
+    background-color: #e7faf0;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+
+.card-arrow1 {
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 15px;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(0, 71, 51);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.card-arrow1:hover {
+    color: white;
+    background-color: rgb(0, 71, 51);
+}
+
+.card-image {
+    width: 20rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-top: 1rem;
+
+}
+
+.card2 {
+    background-color: #e7faf0;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.card-image2{
+width: 17rem;
+height: 18rem;
+}
+.card-header2 p{
+    color: rgb(67, 61, 61);   
+    font-size: 15px;
+}
+.line{
+    height: 1px ;
+    background-color: rgb(155, 146, 146);
+}
+/* ================= */
+body {
+
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-column h3 {
+    color: #00a94f;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-column h4 {
+    color: #9f9a9a;
+    margin: 1rem 0 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.footer-column h4 span{
+    color: rgb(33, 93, 76);
+    font-size: 1.3rem;
+}
+.footer-column p,
+.footer-column li {
+    margin: 0.5rem 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 0.5rem 0;
+}
+
